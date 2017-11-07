@@ -1,5 +1,5 @@
 
-# Gold code correlation
+// Gold code correlation
 
 //Correlation GC 1, 1:
 //31 7 -9 -1 7 7 -1 -9 -1 7 -1 -9 -1 7 7 -1 -1 7 7 -1 -9 -1 7 -1 -9 -1 7 7 -1 -9 7
