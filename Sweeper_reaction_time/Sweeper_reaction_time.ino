@@ -1,4 +1,4 @@
-# Distance sensor detecting human hand
+// Distance sensor detecting human hand
 
 // Part 1: Reaction Timer
 
