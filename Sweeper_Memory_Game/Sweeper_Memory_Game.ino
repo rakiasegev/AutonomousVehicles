@@ -1,4 +1,4 @@
-# # Memory game for guessing LED flashed
+// Memory game for guessing LED flashed
 
 # define LEDRED 13
 # define LEDGREEN 5
