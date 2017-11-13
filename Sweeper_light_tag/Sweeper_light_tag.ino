@@ -1,6 +1,5 @@
 
 // Detects hand and switches sound
-
 // Part 2: Light Tag
 
 #define PHOTOSENSOR 19

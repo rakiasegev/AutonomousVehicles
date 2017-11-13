@@ -1,4 +1,4 @@
-# Gold code generation on arduino
+// Gold code generation on arduino
 
 #define numRegisters 5
 #define numGoldCodes 8
