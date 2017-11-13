@@ -1,4 +1,5 @@
-# program causes arduion robot to play Star Wars theme song
+// program causes arduion robot to play Star Wars theme song
+
 # define pin 4
 
 int frequency[18] = {294, 294, 392, 587, 523, 494, 440, 784,

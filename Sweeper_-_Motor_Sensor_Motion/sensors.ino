@@ -10,6 +10,8 @@ void testSensors() {
   int dist1 = analogRead(REFLSENSOR - 14);
   pinMode(PHOTOSENSOR, INPUT);
   int dist2 = analogRead(PHOTOSENSOR - 14);
+  pinMode(TOUCHSENSOR, INPUT);
+  int dist3 = digitalRead(TOUCHSENSOR);
 
   Serial.print("DISTSENSOR,");
   Serial.print(dist  );
@@ -44,12 +46,17 @@ void testReflsensor() {
 }
 bool testtouchsensor()
 {
-  if (TOUCHSENSOR == true) {
-    Serial.print("hi");
-    turnR();
+  while (digitalRead(TOUCHSENSOR) != HIGH) {
+    Serial.println("hi");
+    forward();
+    }
+    if (digitalRead(TOUCHSENSOR) == HIGH) {
+      halt();
+      delay(6000);
+      backward();
+      delay(500);
+      halt();
+
   }
-   else {
-   forward();
-   }
 }
 
